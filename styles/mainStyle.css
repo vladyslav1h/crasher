@@ -790,16 +790,13 @@ nav ul li a:hover {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+.wrapper {
+  width: 100%;
+  gap: 8px;
+}
 
-@media (max-width: 1400px) {
-  .wrapper {
-    width: 100%;
-    gap: 8px;
-  }
-
-  .header_links {
-    gap: 20px;
-  }
+.header_links {
+  gap: 20px;
 }
 
 @media (max-width: 1200px) {
